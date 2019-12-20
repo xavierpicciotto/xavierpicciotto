@@ -152,7 +152,7 @@
 	{
 	min-height: 100%;
 	min-width: 100%;
-	margin: 0;
+	right: 25%;
 	position: absolute;
 	background-color:white;
 	display: flex;
