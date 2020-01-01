@@ -1,11 +1,11 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .page
 {
-	min-height: 100%;
-	max-width: 90%;
-	min-width: 40%;
-	position: absolute;
-	top: 40px;
-	left: 33%;
 	background-color:white;
 	display: flex;
 	font-family: sans-serif;
@@ -23,9 +23,11 @@
 }
 .box-img
 {
-	margin-left: 22%;
-	margin-top: 12%;
-	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	padding-bottom: 5px; 
 }
 .img
 {
@@ -145,44 +147,6 @@
 .recomandation
 {
 	margin-bottom: 10px;
-}
-@media only screen and (max-width: 1400px)
-{
-	.page
-	{
-	left: 0;
-	right: 0;
-	position: absolute;
-	background-color:white;
-	display: flex;
-	font-family: sans-serif;
-	border: 1px solid black;
-	}
-}
-@media only screen and (max-width: 768px)
-{
-	.page
-	{
-	min-height: 959px;
-	padding:0;
-	margin: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color:white;
-	font-family: sans-serif;
-	}
-	.profil
-	{
-	top: 0px;
-	left: 0px;
-	margin: 0;
-	padding: 0;
-	background-color: #feca07;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	}
 }
 @media only screen and (max-width: 740px)
 {
