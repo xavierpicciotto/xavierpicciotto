@@ -7,7 +7,6 @@ body
 .page
 {
 	background-color:white;
-	min-width: 695px;
 	display: flex;
 	font-family: sans-serif;
 	border: 1px solid black;
@@ -51,7 +50,7 @@ body
 {
 	margin-right: 10px;
 	margin-top: 20px;
-	margin-bottom: 140px;
+	margin-bottom: 70px;
 }
 .loisirs
 {
@@ -74,6 +73,7 @@ body
 }
 .text
 {
+	width: 400px;
 	margin-top: 40px;
 	margin-left: 40px;
 	margin-right: 30px;
@@ -83,11 +83,10 @@ body
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-.name h5
+.name h4
 {
 	margin-top: 0;
 	margin-bottom: 50px;
-	font-size: 16px;
 }
 .text h3
 {
@@ -129,7 +128,8 @@ body
 }
 .date li
 {
-	margin-top: 23px;
+	margin-top: 15px;
+	margin-bottom: 25px;
 	color: #feca07;
 }
 .date p
@@ -139,10 +139,11 @@ body
 .post p
 {
 	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 .recomandation
 {
+	margin-top: 50px;
 	margin-bottom: 15px;
 }
 .recomandation p
@@ -154,12 +155,15 @@ body
 	body
 	{
 		margin: 0;
-		display: block;
 		font-size: 25px;
 	}
 	.profil
 	{
 		max-width: 360px;
+	}
+	.text
+	{
+		width: auto;
 	}
 }
 @media only screen and (min-device-width : 320px) and (max-device-width:567px)
@@ -167,7 +171,6 @@ body
 	body
 	{
 		margin: 0;
-		display: block;
 		font-size: 40px;
 	}
 	.page
@@ -187,5 +190,38 @@ body
 	.aprop p
 	{
 		margin-bottom: 0;
+	}
+	.text
+	{
+		width: auto;
+	}
+}
+@media only screen and (max-width: 660px)
+{
+	body
+	{
+		margin: 0;
+	}
+	.page
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.profil
+	{
+		max-width: 100%;
+		text-align: center;
+	}
+	.img
+	{
+		display: none;
+	}
+	.name
+	{
+		text-align: center;
+	}
+	.loisirs
+	{
+		display: none;
 	}
 }
