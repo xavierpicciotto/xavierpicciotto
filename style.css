@@ -35,18 +35,18 @@ body
 {
 	margin-left: 30px;
 }
-.ctc h4, .aprop h4
+.contact h4, .about h4
 {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.com p
+.communication p
 {
 	margin-right: 10px;
 	margin-top: 15px;
 	margin-bottom: 10px;
 }
-.aprop p
+.about p
 {
 	margin-right: 10px;
 	margin-top: 20px;
@@ -56,7 +56,7 @@ body
 {
 	margin-bottom: 10px;
 }
-.ctc h4,.aprop h4,.loisirs h4
+.contact h4,.about h4,.loisirs h4
 {
 	text-align: center;
 	padding: 5px;
@@ -71,7 +71,7 @@ body
 	margin: 0;
 	font-size: 2em;
 }
-.text
+.cv
 {
 	width: 400px;
 	margin-top: 40px;
@@ -88,55 +88,55 @@ body
 	margin-top: 0;
 	margin-bottom: 50px;
 }
-.text h3
+.cv h3
 {
 	border-bottom: 1px solid #feca07;
 	margin-bottom: 10px;
 	padding-bottom: 5px;
 	margin-left: 10px;
 }
-.text h3 i
+.cv h3 i
 {
 	max-height: 100%;
 	max-width: 100%;
 	margin-right: 20px;
 	color: #feca07;
 }
-.text-form
+.formation-list
 {
 	display: flex;
 }
-.form-date, .date, .form-post, .post
+.formation-date, .experience-date, .formation-text, .experience-text
 {
 	width: 100%;
 }
-.form-date li
+.formation-date li
 {
 	color: #feca07;
 }
-.form-date li p
+.formation-date li p
 {
 	color: black;
 }
-.text-exp
+.experience-list
 {
 	display: flex;
 }
-.date ul
+.experience-date ul
 {
     list-style: disc;
 }
-.date li
+.experience-date li
 {
 	margin-top: 15px;
 	margin-bottom: 25px;
 	color: #feca07;
 }
-.date p
+.experience-date p
 {
 	color: black;
 }
-.post p
+.experience-text p
 {
 	margin-top: 15px;
 	margin-bottom: 25px;
@@ -161,7 +161,7 @@ body
 	{
 		max-width: 360px;
 	}
-	.text
+	.cv
 	{
 		width: auto;
 	}
@@ -187,11 +187,11 @@ body
 		border-radius: 30%;
 		height: 300px;
 	}
-	.aprop p
+	.about p
 	{
 		margin-bottom: 0;
 	}
-	.text
+	.cv
 	{
 		width: auto;
 	}
