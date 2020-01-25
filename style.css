@@ -4,7 +4,7 @@ body
 	justify-content: center;
 	align-items: center;
 }
-.page
+.main
 {
 	background-color:white;
 	display: flex;
@@ -173,10 +173,11 @@ body
 		margin: 0;
 		font-size: 40px;
 	}
-	.page
+	.main
 	{
 		display: flex;
 		flex-direction: column-reverse;
+		font-size: 1.4em;
 	}
 	.profil
 	{
@@ -202,7 +203,7 @@ body
 	{
 		margin: 0;
 	}
-	.page
+	.main
 	{
 		display: flex;
 		flex-direction: column-reverse;
