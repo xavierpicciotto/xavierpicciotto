@@ -22,15 +22,17 @@ body
 }
 .box-img
 {
+	margin-top: 10%;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
 .img
 {
-	margin-top: 50px;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 	border-radius: 50%;
-	width: 80%;
+	width: 65%;
 	height: auto;
 	box-shadow: 5px 5px 5px 5px #00000057;
 }
@@ -43,10 +45,6 @@ body
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 1.6em;
-}
-.communication
-{
-	margin-top: -50px;
 }
 .communication p
 {
